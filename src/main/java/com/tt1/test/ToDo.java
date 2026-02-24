@@ -1,6 +1,10 @@
+package com.tt1.test;
+
+import java.util.Date;
+
 public class ToDo{
-  private string nombre;
-  private string descripcion;
-  private date fechaLimite;
-  private bool completado;
+  private String nombre;
+  private String descripcion;
+  private Date fechaLimite;
+  private boolean completado;
 }
