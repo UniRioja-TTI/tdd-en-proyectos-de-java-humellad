@@ -61,7 +61,7 @@ public class RepositorioMock implements IRepositorio {
 
 	@Override
 	public List<String> obtenerTodosLosEmails() {
-		List<String> sol = new ArrayList<String>(this.emailsSimulados)
+		List<String> sol = new ArrayList<String>(this.emailsSimulados);
 		return sol;
 	}
 }
